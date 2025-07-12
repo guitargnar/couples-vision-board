@@ -28,12 +28,22 @@ A beautiful, private digital vision board designed for couples to store, organiz
 ### 🌐 Options for Remote Access
 
 #### Option 1: Same WiFi Network (Easiest)
+
 - **Perfect for**: Home use, when both partners are on the same WiFi
 - **Setup**: Use the instructions above
 - **Pros**: Simple, private, no internet required
 - **Cons**: Only works when on the same network
 
-#### Option 2: Tunneling Service (For Remote Access)
+#### Option 2: GitHub Pages (Recommended for Remote Access)
+
+- **Perfect for**: Access from anywhere, anytime
+- **Live URL**: https://guitargnar.github.io/couples-vision-board/
+- **Setup**: Automatically deployed when code is pushed to GitHub
+- **Pros**: Always available, fast, free hosting
+- **Cons**: Public URL (but app data stays private on your device)
+
+#### Option 3: Tunneling Service (For Remote Access)
+
 - **Perfect for**: When partners are in different locations
 - **Tools**: ngrok, CloudFlare Tunnel, or LocalTunnel
 - **Example with ngrok**:
@@ -43,10 +53,12 @@ A beautiful, private digital vision board designed for couples to store, organiz
   # Share the provided URL with your girlfriend
   ```
 
-#### Option 3: Deploy to Hosting (Always Accessible)
+#### Option 4: Deploy to Hosting (Always Accessible)
+
 - **Perfect for**: Permanent access from anywhere
 - **Options**: Netlify, Vercel, GitHub Pages
 - **Setup**: Build and deploy the `dist` folder
+- **GitHub Pages**: Automatically deployed at https://guitargnar.github.io/couples-vision-board/
 
 ## 🎯 Features
 
